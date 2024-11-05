@@ -6,6 +6,9 @@
   background-image: url(../image/bag.jpg);
   height: 100vh;
   background-size: cover;
+  clip-path: polygon(50% 0%, 100% 0, 85% 100%, 12% 100%, 0 0);
+
+
 }
 .hero h1 {
   color: azure;
@@ -21,6 +24,7 @@
   margin: 60px auto;
   text-align: justify;
   background-color: #9adcfa;
+  background: linear-gradient(45deg, rgb(181, 146, 152), rgb(74, 74, 194));
 }
 .article h1{
     text-align: center;
